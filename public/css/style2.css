@@ -1,0 +1,120 @@
+/* header */
+.header a { float: left;color: black;text-align: center;padding: 10px;text-decoration: none;font-size: 20px; line-height: 25px;border-radius: 4px; }
+.header a.logo {font-size: 30px;font-weight: bold;}
+.header a:hover {background-color: #45A7E9;color: black;}
+.headerlogo{padding-bottom:40px;padding-left:5px;	}
+.header a.active {color: black;}.header-right {float: right;}@media screen and (max-width: 500px) {.header a {float: none;display: block;text-align: left;}  .header-right {float: none; padding-top: 5%;}}
+
+/* footer */
+.footer {position: absolute; right:0; left: 0;bottom: 0; width: 100%; background-color:  #148DDD;color: white;text-align: center;text-align: center;}.header {overflow: hidden;background-color: dodgerblue;padding: 20px 10px;}
+.header {overflow: hidden;background-color: dodgerblue;padding: 20px 10px;}
+.header {
+	background-image: url("/img/backimg.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+	background-position : center;
+	background-repeat: no-repeat;
+    }
+/* side bar */
+.side-bar {
+    /* height: 600px; */
+    border: 0.5px solid rgb(245, 240, 240);
+    /*background-color: rgb(225, 246, 250);*/
+    background-image: linear-gradient(200deg,white, rgb(183, 199, 221));
+}
+
+/* main section */
+.main-section {
+    /* height: 600px; */
+    border: 0.5px solid rgb(201, 12, 12);
+    padding-bottom: 120px;
+    background-image: linear-gradient(180deg,white, rgb(183, 199, 221));
+}
+
+/* home */
+#home-button {
+    margin: 30px auto;
+    width: 60%;
+}
+
+/* content-header */
+#header-area {
+    padding: 10px;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    color:darkblue;
+    font-size: 1.5em;
+    background-color: rgb(168, 223, 216);
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-family: Arial;
+   
+}
+#header-area-product {
+    padding: 10px;
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+    color:darkblue;
+    font-size: 1.5em;
+    background-color: rgb(168, 223, 216);
+}
+#header-area-order {
+    padding: 10px;
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+    color:darkblue;
+    font-size: 1.5em;
+    background-color: rgb(168, 223, 216);
+}
+
+/* button view and insert */
+.button-area {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 70px;
+    width: 33%;
+    background-color: antiquewhite;
+}
+.button-image {
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+    width: 65%;
+    height: 146px;
+}
+.btn-VadnI {
+    display: block;
+    margin: auto;
+}
+.main-button {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+    height: 40px;
+}
+
+/* product table */
+#product-table {
+    border-top: 1px solid black;
+}
+.tMargin {
+    min-height: 400px;
+}
+
+/* required indicator */
+.reqField {
+    color: red;
+}
+
+/* Product List */
+.container-fluid {
+
+    background-image: linear-gradient(180deg,white, rgb(183, 199, 221));
+}
+
+
+
